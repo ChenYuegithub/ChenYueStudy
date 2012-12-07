@@ -34,7 +34,7 @@ void Graduate::display()const
 	cout<<"num:"<<num<<"\nname:"<<name<<"\nscore:"<<score<<"\npay:"<<pay<<endl;
 }
 
-Graduate::Graduate(int n,string nam,float s,float p):Student(n,name,s),pay(p){}
+Graduate::Graduate(int n,string nam,float s,float p):Student(n,nam,s),pay(p){}
 
 int main()
 {
